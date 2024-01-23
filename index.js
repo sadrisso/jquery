@@ -5,3 +5,5 @@ $('.container1 #p1').text('Paragraph one!');
 let variableOne = $('<p></p>').text('Hi');
 
 $('#p1').before(variableOne);
+
+$('.container .h1').css({'color': 'red', 'background-color': 'green'});
