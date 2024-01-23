@@ -18,6 +18,6 @@ $('.btn').click(function(){
 })
 
 $('.myButton').click(function() {
-    let value = this.innerHTML;
-    $('.h3').text(value + 'is clicked');
+    var value = this.innerHTML;
+    $('.h3').text(value + '' + 'is clicked');
 })
