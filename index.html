@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <title>Title</title>
 </head>
-<body>
+<body class="container">
 
     <div class="container">
         <h1 class="h1">This is heading one! </h1>
@@ -20,14 +20,60 @@
 
     <div class="container2">
         <h2 class="h2">not clicked</h2>
-        <button class="btn">submit</button>
+        <button class="btnn">submit</button>
     </div>
 
     <div class="container3">
         <h3 class="h3"> </h3>
-        <button class="myButton btn">Button 1</button>
-        <button class="myButton btn">Button 2</button>
-        <button class="myButton btn">Button 3</button>
+        <button class="myButton btnn">Button 1</button>
+        <button class="myButton btnn">Button 2</button>
+        <button class="myButton btnn">Button 3</button>
+    </div>
+
+    <div class="container4">
+        <input type="password" id="pass1" placeholder="Enter password" name="pass1">
+        <input type="password" id="pass2" placeholder="Re-enter password" name="pass1">
+        <input type="submit" value="submit" class="submitButton btnn">
+    </div>
+
+    <div class="card container">
+        <h2 class="cardTitle">Calculator</h2>
+
+        <div class="cardHeader">
+            <textarea name="" id="calHead" maxlength="10"></textarea>
+        </div>
+        <div class="cardBody">
+            <div>
+                <input type="button"class="btn btnPrimary" name="" value="C" onclick="clearResult()">
+                <input type="button"class="btn" name="" value="+/-">
+                <input type="button"class="btn" name="" value="%">
+                <input type="button"class="btn" name="" value="/">
+            </div>
+            <div>
+                <input type="button"class="btn btnPrimary" name="" value="X">
+                <input type="button"class="btn" name="" value="1" onclick="insertNumber(1)">
+                <input type="button"class="btn" name="" value="2" onclick="insertNumber(2)">
+                <input type="button"class="btn" name="" value="3" onclick="insertNumber(3)">
+            </div>
+            <div>
+                <input type="button"class="btn btnPrimary" name="" value="-">
+                <input type="button"class="btn" name="" value="4" onclick="insertNumber(4)">
+                <input type="button"class="btn" name="" value="5" onclick="insertNumber(5)">
+                <input type="button"class="btn" name="" value="6" onclick="insertNumber(6)">
+            </div>
+            <div>
+                <input type="button"class="btn btnPrimary" name="" value="+">
+                <input type="button"class="btn" name="" value="7" onclick="insertNumber(7)">
+                <input type="button"class="btn" name="" value="8" onclick="insertNumber(8)">
+                <input type="button"class="btn" name="" value="9" onclick="insertNumber(9)">
+            </div>
+            <div>
+                <input type="button"class="btn btnPrimary" name="" value="0" onclick="insertNumber(0)">
+                <input type="button"class="btn" name="" value=".">
+                <input type="button"class="btn" name="" value="del">
+                <input type="button"class="btn btnStyle" name="" value="=">
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

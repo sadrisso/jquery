@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cardTitle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0;
+    margin-top: 20px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0 16px 32px 0;
+}
+
+#calHead{
+    height: 80px;
+    width: 300px;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 5px;
+    margin-top: 5px 0;
+    resize: none;
+}
+
+.calHeader{
+    margin-bottom: 5px;
+}
+
+.cardBody{
+    font-size: 0;
+}
+
+.btn{
+    width: 70px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin: 2px;
+}
+
+.btnStyle{
+    background-color: orange;
+}
+
+.btnPrimary{
+    background-color: cadetblue;
+}
